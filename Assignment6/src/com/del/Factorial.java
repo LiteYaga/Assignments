@@ -8,7 +8,7 @@ public class Factorial {
 
 		int number = 0;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the whole number");
+		System.out.println("Enter the number");
 		try {
 			number = sc.nextInt();
 			if (number < 0) {
@@ -19,7 +19,7 @@ public class Factorial {
 
 			}
 		} catch (Exception e) {
-			System.err.println("You did not enter a whole number");
+			System.err.println("Kindly enter a whole number");
 			sc.nextLine();
 		}
 
